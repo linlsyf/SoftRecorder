@@ -1,0 +1,5 @@
+1  提示创建shawdow服务失败： 重新安装系统
+2  客户端连接不到服务器： win+R   regedit  
+
+根据错误信息在网上搜索了下，看到很多人都是说修改注册表解决，但是原因却不清楚。
+注册表修改“HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy\Enabled”值为0就可以解决。
